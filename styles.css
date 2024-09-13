@@ -1,0 +1,125 @@
+* {
+  font-family: "Montserrat", verdana;
+  box-sizing: border-box;
+  margin: 0;
+}
+#header-img {
+  height: 7vh;
+}
+main {
+  background-image: url("https://raw.githubusercontent.com/Jewel-Geea/logos/0cd190e28cfe5e8f18f857073aaa191519aebc9c/Gemini_Generated_Image_jghawwjghawwjgha.jpeg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: repeat;
+  height: 100rem;
+}
+#nav-bar {
+  display: flex;
+  height: 8.5vh;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #111317;
+  position: fixed; /* Fix the position */
+  top: 0; /* Stick to the top */
+  width: 100%; /* Full width */
+  z-index: 1000; /* Ensure it stays above other content */
+}
+
+#nav-bar a {
+  color: #a1a6af;
+  text-decoration: none;
+}
+#header-img {
+  margin-left: 1rem;
+}
+i {
+  color: orange;
+  margin-bottom: 1rem;
+}
+
+span {
+  color: white;
+}
+.Price {
+  padding-right: 1rem;
+}
+
+h1 {
+  text-align: center;
+  color: #399531;
+}
+main {
+  height: 80vh;
+  color: rgb(23, 26, 34);
+  text-align: center;
+}
+
+#email {
+  width: 19rem;
+  font-size: 1.4rem;
+  height: 2.9rem;
+  margin-top: 1rem;
+  text-align: center;
+  background-color: #353535;
+  border-radius: 0.6rem;
+  color: white;
+}
+input[type="email"]::placeholder {
+  color: white;
+}
+
+#benefits {
+  position: relative;
+  text-align: center;
+}
+#submit {
+  margin-top: 1rem;
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  width: 10.5rem;
+  padding: 0.5rem;
+  background-color: #353535;
+  color: white;
+
+  border-radius: 3.1rem;
+}
+
+#pricing {
+  display: flex;
+
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+span2 {
+  font-weight: bold;
+}
+.div5 {
+  font-weight: bold;
+  line-height: 2rem;
+  position: relative;
+
+  text-align: center;
+  font-size: 2rem;
+  padding: 1rem;
+  border-bottom: 1px solid black;
+}
+
+fieldset {
+  margin: 0.7rem;
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+  text-align: left;
+}
+
+.size ul li {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+@media (min-width: 240px) {
+  main {
+    font-size: 1em;
+  }
+}
